@@ -1,0 +1,16 @@
+{
+  "name": "growxmax-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "GrowXMax WhatsApp AI Bot",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.2",
+    "@google/generative-ai": "^0.14.0",
+    "axios": "^1.6.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
