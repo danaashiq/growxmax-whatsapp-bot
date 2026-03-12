@@ -70,7 +70,12 @@ async function startBot(){
     await sock.sendMessage(msg.key.remoteJid,{ text: reply })
 
   })
-
+const sock = makeWASocket({
+  auth: state,
+  printQRInTerminal: true,
+  browser: ["Ubuntu", "Chrome", "20.0.04"]
+})
 }
 
 startBot()
+
